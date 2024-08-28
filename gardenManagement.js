@@ -1,7 +1,6 @@
 const temperature = 90;
 const timeOfDay = "morning";
 let soilMoisture = 30;
-const gardenTasks = ["Water plants", "Trim hedges", "Mow lawn"];
 
 if (temperature > 80) {
   console.log("Watering on");
@@ -19,8 +18,4 @@ if (timeOfDay === "evening" || timeOfDay === "night") {
 while (soilMoisture <= 40) {
   soilMoisture += 5;
     console.log(soilMoisture);
-}
-
-for (let i = 0; i < gardenTasks.length; i++) {
-  console.log(gardenTasks[i]);
 }
