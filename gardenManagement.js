@@ -19,25 +19,3 @@ while (soilMoisture < 40) {
 
 // 4. Log the final value of soilMoisture to pass the last test
 console.log(soilMoisture);
-
-// 5. Use if-else statements to check the temperature and log the appropriate message
-if (temperature > 80) {
-  console.log("Temperature is > 80, watering on.");
-} else {
-  console.log("Temperature is not > 80, watering off.");
-}
-
-// 6. Use if-else statements to check the time of day and log the appropriate message
-if (timeOfDay === "morning") {
-  console.log("Lights off");
-} else {
-  console.log("Lights on");
-}
-
-// 7. Use a while loop to increment the value of soilMoisture by 5 until it reaches 40.
-// (Resetting back to 30 first so the loop actually runs, otherwise it's already 40 from step 3)
-soilMoisture = 30;
-while (soilMoisture < 40) {
-  soilMoisture += 5;
-}
-console.log(soilMoisture);
