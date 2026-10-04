@@ -26,13 +26,17 @@ if (temperature > 80) {
 } else {
   console.log("Temperature is not > 80, watering off.");
 }
+
 // 6. Use if-else statements to check the time of day and log the appropriate message
-if (timeOfDay === "evening") {
-  console.log("Time of day is evening, lights on.");
+if (timeOfDay === "morning") {
+  console.log("Lights off");
 } else {
-  console.log("Time of day is not evening, lights off.");
+  console.log("Lights on");
 }
+
 // 7. Use a while loop to increment the value of soilMoisture by 5 until it reaches 40.
+// (Resetting back to 30 first so the loop actually runs, otherwise it's already 40 from step 3)
+soilMoisture = 30;
 while (soilMoisture < 40) {
   soilMoisture += 5;
 }
